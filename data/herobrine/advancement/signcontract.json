@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "sign": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": {},
+        "recipe": "herobrine:blank"
+      }
+    }
+  },
+  "requirements": [["sign"]],
+  "rewards": {
+    "function": "herobrine:contract/contractused"
+  }
+}

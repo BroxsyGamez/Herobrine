@@ -1,0 +1,14 @@
+{
+	"pack": {
+		"pack_format": 61,
+		"description": "Will you accept the deal?"
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "animated_java",
+				"formats": 61
+			}
+		]
+	}
+}

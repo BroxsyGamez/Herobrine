@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " a ",
+      "aca",
+      "bbb"
+    ],
+    "key": {
+      "a": "minecraft:nether_star",
+      "b": "minecraft:obsidian",
+      "c": "minecraft:diamond_block"
+    },
+    "result": {
+      "id": "minecraft:beacon",
+      "count": 1,
+      "components": {
+        "minecraft:custom_data": "{3life:beacon}",
+        "minecraft:custom_name": "{\"text\":\"BEACON OF LIFE\",\"color\":\"green\"}"
+      }
+    }
+  }
+  

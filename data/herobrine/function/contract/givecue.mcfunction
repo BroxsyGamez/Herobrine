@@ -1,0 +1,1 @@
+function herobrine:contract/givecontract with storage herobrine:plr

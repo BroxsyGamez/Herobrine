@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "3life:beacon"
+        }
+      }
+    },
+    "rewards": {
+      "function": "3life:beacon"
+    }
+  }
+  

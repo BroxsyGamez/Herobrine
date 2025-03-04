@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:nether_star",
+          "components": {
+            "minecraft:custom_data": "{3life:life}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "3life:consumelife"
+  }
+}
