@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_head",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "slots": {
+                  "weapon.mainhand": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "herobrine:beheading": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

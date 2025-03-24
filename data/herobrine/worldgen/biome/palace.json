@@ -1,0 +1,48 @@
+{
+    "temperature": 1,
+    "downfall": 1,
+    "has_precipitation": true,
+    "temperature_modifier": "none",
+    "effects": {
+      "sky_color": 16713222,
+      "fog_color": 16777215,
+      "water_color": 16713229,
+      "water_fog_color": 9840937,
+      "grass_color": 16712708,
+      "foliage_color": 16718362,
+      "grass_color_modifier": "none",
+      "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "tick_delay": 6000
+    },
+    "music": [
+      {
+        "data": {
+          "max_delay": 24000,
+          "min_delay": 12000,
+          "replace_current_music": false,
+          "sound": "minecraft:music.nether.basalt_deltas"
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 1,
+      "particle": {
+        "options": {
+          "type": "minecraft:flame"
+        },
+        "probability": 0.005
+      }
+    },
+    "spawners": {},
+    "spawn_costs": {},
+    "carvers": [],
+    "features": []
+  }

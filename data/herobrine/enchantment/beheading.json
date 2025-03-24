@@ -1,0 +1,19 @@
+{
+    "anvil_cost": 8,
+    "description": {
+      "text": "Beheading"
+    },
+    "exclusive_set": [],
+    "max_cost": {
+      "base": 20,
+      "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 0
+    },
+    "slots": [],
+    "supported_items": "#minecraft:axes",
+    "weight": 1
+  }

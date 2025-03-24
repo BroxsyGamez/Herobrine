@@ -1,0 +1,24 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "killing_blow": {
+            "source_entity": {
+              "type": "minecraft:player",
+              "slots": {
+                "weapon.offhand": {
+                  "components": {
+                    "minecraft:custom_data": "{herobrine:annihilation}"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "3life:permakill"
+    }
+}

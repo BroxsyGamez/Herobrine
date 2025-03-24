@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:piglin_head",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "slots": {
+                    "weapon.mainhand": {
+                      "components": {
+                        "minecraft:enchantments": {
+                          "levels": {
+                            "herobrine:beheading": 1
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

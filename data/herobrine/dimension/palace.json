@@ -1,0 +1,11 @@
+{
+    "type": "herobrine:herobrine_palace",
+    "generator": {
+      "type": "minecraft:noise",
+      "biome_source": {
+        "type": "minecraft:fixed",
+        "biome": "herobrine:palace"
+      },
+      "settings": "herobrine:palace"
+    }
+  }

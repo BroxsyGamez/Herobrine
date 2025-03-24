@@ -1,0 +1,2 @@
+execute if data entity @s Item.components."minecraft:custom_data".signer run data modify storage herobrine:plrcontract plr set string entity @s Item.components.'minecraft:custom_data'.signer
+execute if data entity @s Item.components."minecraft:custom_data".signer run function herobrine:contract/contractdropped with storage herobrine:plrcontract
