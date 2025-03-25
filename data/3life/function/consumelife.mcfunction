@@ -1,3 +1,3 @@
 advancement revoke @s only 3life:lifeuse
-execute if score @s lives >= @s maxlives run give @s nether_star[consumable={consume_seconds:0.1,sound:block.enchantment_table.use,has_consume_particles:false},custom_data={3life:life},custom_name="{\"text\":\"Life\",\"color\":\"green\"}",death_protection={death_effects:[{type:apply_effects,effects:[{id:glowing,duration:10},{id:"regeneration",duration:10},{id:resistance,duration:20,amplifier:1},{id:fire_resistance,duration:30}]}]}]
+execute if score @s lives >= @s maxlives run give @s nether_star[consumable={consume_seconds:0.1,sound:block.enchantment_table.use,has_consume_particles:false},custom_data={3life:life},custom_name="{\"text\":\"Life\",\"color\":\"green\"}"]
 execute if score @s lives < @s maxlives run function 3life:addlife
